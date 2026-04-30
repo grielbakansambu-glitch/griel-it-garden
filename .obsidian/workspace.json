@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "581a4161aa21dc9d",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe6e817ba58cf2fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "feaee3082d17504b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vue graphique"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d2ff7d4e8417723e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2acef6efb9079ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "858fe2c5bc84d66a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorateur de fichiers"
+            }
+          },
+          {
+            "id": "a4aef073006c6013",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Rechercher"
+            }
+          },
+          {
+            "id": "03f8b63b2ba1e1fc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Signets"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b902e99ac39b6877",
+    "type": "split",
+    "children": [
+      {
+        "id": "ceb29665c55a239a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d49e0f37e361f297",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rétroliens"
+            }
+          },
+          {
+            "id": "e15b3237cc10e374",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants"
+            }
+          },
+          {
+            "id": "9395d53a36ce068b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
+            }
+          },
+          {
+            "id": "89d31f585cbe6cbd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Toutes les propriétés"
+            }
+          },
+          {
+            "id": "41eea0f1ffef2ec1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Plan"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 655.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "bases:Créer une nouvelle base": false
+    }
+  },
+  "active": "feaee3082d17504b",
+  "lastOpenFiles": [
+    "index.md.md",
+    "00_Templates/T_Journal.md",
+    "02_Logs_Techniques/Plan_Contenu_TikTok.md.md",
+    "02_Logs_Techniques/Scan Réseau Nmap.md",
+    "02_Logs_Techniques/Index Logs.md",
+    "00_Templates/T_Log_Technique.md",
+    "04_Didactique/Ma Méthode.md",
+    "03_Identité_&_Mental/Code d’Exécution.md",
+    "03_Identité_&_Mental/Qui est Gabriel Bakansambu.md",
+    "Mental - Code d’Exécution.md",
+    "00_Templates/#log #technique #learning.md",
+    "04_Didactique",
+    "03_Identité_&_Mental",
+    "02_Logs_Techniques",
+    "01_Journal",
+    "00_Templates"
+  ]
+}
