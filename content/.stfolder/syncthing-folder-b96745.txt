@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: jardin-gabriel
+created: 2026-04-28T23:04:48+02:00
