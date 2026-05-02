@@ -77,8 +77,8 @@ Construire une base solide en systèmes et réseaux, évoluer vers les télécom
 
 ---
 
-## 🔗 Connexions
-
-- TikTok : [TikTok](https://www.tiktok.com/@griel_it?_r=1&_t=ZS-95zjQMrLPBR)
-- GitHub : [GitHub](https://github.com/grielbakansambu-glitch)
-- CV : (à ajouter)
+### 🔗 Connexions
+* **WhatsApp :** [Discuter sur WhatsApp](https://wa.me/243840609505)
+* **Facebook :** [G-riel IT](https://www.facebook.com/share/18UR1j9HLX/)
+* **GitHub :** [GitHub](https://github.com/grielbakansambu-glitch)
+* **TikTok :** [TikTok](https://www.tiktok.com/@griel_it?_r=1&_t=ZS-95zjQMrLPBR)
