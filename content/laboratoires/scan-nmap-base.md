@@ -22,7 +22,7 @@ Pour ce test, j'ai choisi de scanner **scanme.nmap.org**. C'est un service fourn
 
 ## 📸 Preuves Techniques (Captures d'écran)
 
-![Scan de scanme.nmap.org en cours](./laboratoires/images/nmap-scanme.nmap.org.jpg)
+![Scan de scanme.nmap.org en cours](scan-nmap-base.md/images/nmap-scanme.nmap.org.jpg)
 > **Preuve 1** : Exécution de la commande ciblant le domaine officiel de test. On voit le processus de découverte des ports.
 
 ---
