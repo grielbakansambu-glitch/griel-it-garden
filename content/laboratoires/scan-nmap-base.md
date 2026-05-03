@@ -31,14 +31,14 @@ Pour ce test, j'ai choisi de scanner **scanme.nmap.org**. C'est un service fourn
 D'après les résultats obtenus sur la capture :
 - **Port 22/tcp (SSH)** : Généralement ouvert pour permettre l'administration sécurisée.
 - **Port 80/tcp (HTTP)** : Le serveur web est actif pour afficher la page de bienvenue.
-- **Analyse** : Ce scan me permet de voir quels services sont exposés au public sur ce serveur de test. Utiliser l'option `-sV` m'a permis de détecter les versions des services, ce qui est crucial pour la recherche de vulnérabilités spécifiques.
+- **Analyse** : Ce scan me permet de voir quels services sont exposés au public sur ce serveur de test. L'option `-sV` est cruciale pour la recherche de vulnérabilités spécifiques.
 
 ---
 
 ## ⚠️ Pourquoi cette cible ?
-J'ai choisi de ne pas scanner mon réseau local immédiatement pour éviter les interférences avec le pare-feu de mon routeur et pour pratiquer sur une cible réelle disponible sur Internet. Cela démontre une compréhension de l'éthique en cybersécurité.
+J'ai choisi de pratiquer sur une cible réelle disponible sur Internet pour démontrer une compréhension de l'éthique en cybersécurité, tout en évitant les interférences locales.
 
 ---
 
 ## ✅ Conclusion
-Ce test confirme que mon installation de Nmap est opérationnelle. La prochaine étape sera d'approfondir l'analyse avec des scripts (`--script`) pour détecter des vulnérabilités plus précises sur ces ports ouverts.
+Ce test confirme que mon installation de Nmap est opérationnelle. La prochaine étape sera d'approfondir l'analyse avec des scripts (`--script`).
