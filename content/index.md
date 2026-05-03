@@ -4,7 +4,7 @@ title: Accueil
 
 # G-RIEL IT GARDEN
 
-> Étudiant en Didactique de l’Informatique Technologie 
+> Étudiant en Didactique de l’Informatique Technologie /
 > Futur Administrateur Systèmes & Réseaux  
 
 **Documenter pour apprendre. Pratiquer pour construire. Partager pour progresser.**
