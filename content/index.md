@@ -4,17 +4,30 @@ title: Accueil
 
 # 🛡️ Gabriel Bakansambu
 
-> **Étudiant en Didactique de l’Informatique | Futur Administrateur Systèmes & Réseaux** > *Documenter pour apprendre. Pratiquer pour prouver.*
+> **Étudiant en Didactique de l’Informatique | Futur Administrateur Systèmes & Réseaux**
+> *Documenter pour apprendre. Pratiquer pour prouver.*
 
 ---
 
 ## 👤 Profil & Positionnement
 
-Étudiant en Licence 2 à l’ISP Mbanza-Ngungu et stagiaire à l’ITC Badika, je construis mon parcours en informatique à travers une approche simple : **apprendre, pratiquer, documenter**.
+<div style="display: flex; align-items: center; gap: 20px;">
+  <img src="./gabriel-photo.jpg" alt="Photo de profil de Gabriel Bakansambu" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent);">
+  
+  <div>
+    Étudiant en Licence 2 à l’ISP Mbanza-Ngungu et stagiaire à l’ITC Badika, je construis mon parcours en informatique à travers une approche simple : **apprendre, pratiquer, documenter**.
+    <br><br>
+    Je ne me positionne pas comme expert, mais comme un apprenant discipliné qui transforme chaque compétence acquise en preuve concrète.
+    <br><br>
+    <strong>Objectif</strong> : évoluer vers une spécialisation en Télécommunications et Administration Systèmes.
+  </div>
+</div>
 
-Je ne me positionne pas comme expert, mais comme un apprenant discipliné qui transforme chaque compétence acquise en preuve concrète.
+---
 
-**Objectif** : évoluer vers une spécialisation en Télécommunications et Administration Systèmes.
+## 📄 Mon Curriculum Vitae
+
+- [📄 Voir mon CV complet (PDF)](./cv-gabriel.pdf) 
 
 ---
 
@@ -69,6 +82,8 @@ Construire une base solide en systèmes et réseaux, évoluer vers les télécom
 ---
 
 ## 🔗 Connexions
-- **WhatsApp** : [Discuter sur WhatsApp](https://wa.me/243840609505)  
-- **GitHub** : [GitHub](https://github.com/grielbakansambu-glitch)  
+
+- **Facebook** : [G-riel IT (Page Officielle)](https://www.facebook.com/share/18bjVsonbi/)
+- **WhatsApp** : [Discuter sur WhatsApp](https://wa.me/243840609505)
+- **GitHub** : [GitHub](https://github.com/grielbakansambu-glitch)
 - **TikTok** : [TikTok](https://www.tiktok.com/@griel_it)
