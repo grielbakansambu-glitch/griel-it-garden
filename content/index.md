@@ -4,7 +4,7 @@ title: Accueil
 
 # G-RIEL IT GARDEN
 
-> Étudiant en Didactique de l’Informatique  
+> Étudiant en Didactique de l’Informatique Technologie 
 > Futur Administrateur Systèmes & Réseaux  
 
 **Documenter pour apprendre. Pratiquer pour construire. Partager pour progresser.**
@@ -24,22 +24,23 @@ C’est un laboratoire vivant basé sur la pratique, les erreurs et les solution
 
 ## Profil
 
-<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-  <img src="./gabriel-photo.jpg" alt="Photo de Gabriel Bakansambu" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; border: 2px solid #58a6ff;"> 
-  
-  <div style="max-width: 600px;">
-    Étudiant en Licence 2 à l’ISP Mbanza-Ngungu et stagiaire à l’ITC Badika, je développe mes compétences à travers une approche structurée :
+<img src="./gabriel-photo.jpg" alt="Photo de Gabriel Bakansambu" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; border: 2px solid #58a6ff;">
 
-    <br><br>
-    <strong>apprendre → pratiquer → documenter → partager</strong>
+**Étudiant en Licence 2 – Didactique de l’Informatique Technologie (ISP Mbanza-Ngungu)**  
+**Stagiaire en informatique (ITC Badika)**  
 
-    <br><br>
-    Je ne me présente pas comme expert, mais comme un apprenant rigoureux qui transforme chaque compétence en preuve concrète.
+Je construis mes compétences en informatique à travers une approche pratique et structurée :
 
-    <br><br>
-    <strong>Objectif :</strong> évoluer vers les télécommunications et l’administration systèmes & réseaux.
-  </div>
-</div>
+**apprendre → pratiquer → documenter → partager**
+
+---
+
+Je ne me présente pas comme expert, mais comme un apprenant en progression constante, qui transforme chaque exercice en preuve concrète.
+
+---
+
+**Objectif :**  
+Devenir Administrateur Systèmes & Réseaux spécialisé en infrastructures et télécommunications.
 
 ---
 
