@@ -4,7 +4,7 @@ title: Accueil
 
 # G-RIEL IT GARDEN
 
-> Étudiant en Didactique de l’Informatique Technologie /
+> Étudiant en Informatique (ISP Mbanza-Ngungu)  
 > Futur Administrateur Systèmes & Réseaux  
 
 **Documenter pour apprendre. Pratiquer pour construire. Partager pour progresser.**
@@ -17,8 +17,20 @@ Bienvenue dans mon Digital Garden — un espace de progression en informatique.
 
 Ici, je documente mon évolution réelle : des bases jusqu’à des compétences en systèmes, réseaux et cybersécurité.
 
+👉 Si tu veux voir du concret rapidement, commence par les laboratoires.
+
 Ce site n’est pas une vitrine parfaite.  
 C’est un laboratoire vivant basé sur la pratique, les erreurs et les solutions.
+
+---
+
+## 🚀 Commencer ici
+
+👉 Nouveau sur le site ? Voici les meilleurs points de départ :
+
+- 🛡️ [Voir mes laboratoires](laboratoires)
+- 📚 [Comprendre mes connaissances](connaissances)
+- 📈 [Suivre ma progression](journal)
 
 ---
 
@@ -44,35 +56,37 @@ Devenir Administrateur Systèmes & Réseaux spécialisé en infrastructures et t
 
 ---
 
-## Explorer
+## 🧭 Explorer le site
+
+Choisis ce que tu veux voir :
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
 
 <a href="laboratoires" style="text-decoration: none;">
 <div style="padding: 16px; border-radius: 12px; background: rgba(255,255,255,0.05); backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,0.1);">
 <strong>Laboratoires</strong><br>
-<span style="font-size: 14px;">Expérimentations, erreurs, corrections</span>
+<span style="font-size: 14px;">Expérimentations réelles, erreurs et corrections</span>
 </div>
 </a>
 
 <a href="connaissances" style="text-decoration: none;">
 <div style="padding: 16px; border-radius: 12px; background: rgba(255,255,255,0.05); backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,0.1);">
 <strong>Connaissances</strong><br>
-<span style="font-size: 14px;">Cours et concepts structurés</span>
+<span style="font-size: 14px;">Concepts expliqués simplement</span>
 </div>
 </a>
 
 <a href="journal" style="text-decoration: none;">
 <div style="padding: 16px; border-radius: 12px; background: rgba(255,255,255,0.05); backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,0.1);">
 <strong>Journal</strong><br>
-<span style="font-size: 14px;">Progression et discipline</span>
+<span style="font-size: 14px;">Suivre mon évolution réelle</span>
 </div>
 </a>
 
 <a href="didactique" style="text-decoration: none;">
 <div style="padding: 16px; border-radius: 12px; background: rgba(255,255,255,0.05); backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,0.1);">
 <strong>Didactique</strong><br>
-<span style="font-size: 14px;">Expliquer simplement les concepts techniques</span>
+<span style="font-size: 14px;">Apprendre à expliquer l’informatique</span>
 </div>
 </a>
 
@@ -87,7 +101,9 @@ Devenir Administrateur Systèmes & Réseaux spécialisé en infrastructures et t
 
 ---
 
-## Travaux récents
+## 🛠️ Travaux récents (preuves de progression)
+
+Voici quelques travaux récents réalisés dans mon apprentissage pratique :
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px;">
 

@@ -24,7 +24,7 @@ Cette étape permet de valider la connectivité et la détection des services ac
 
 ## 📸 Preuves techniques
 
-![Résultat du scan Nmap](./images/nmap.png)
+![Résultat du scan Nmap](./images/nmap.png.png)
 
 **Observation :**  
 Les ports 22, 80, 9929 et 31337 apparaissent en état "open", confirmant la présence de services actifs sur la cible.
