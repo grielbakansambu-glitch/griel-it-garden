@@ -8,14 +8,14 @@ title: "Lab 01 : Reconnaissance Nmap"
 
 ---
 
-## 🧭 Contexte
+## Contexte
 
 Utilisation de Nmap pour auditer `scanme.nmap.org`.  
 Cette étape permet de valider la connectivité et la détection des services actifs.
 
 ---
 
-## 🛠️ Méthodologie
+## Méthodologie
 
 - **Machine** : Kali Linux (ThinkPad i5)
 - **Commande utilisée** : `nmap scanme.nmap.org`
@@ -31,7 +31,7 @@ Les ports 22, 80, 9929 et 31337 apparaissent en état "open", confirmant la pré
 
 ---
 
-## 🧠 Analyse des résultats
+## Analyse des résultats
 
 - **Port 22/tcp** : SSH (accès distant sécurisé)
 - **Port 80/tcp** : HTTP (serveur web actif)
@@ -47,7 +47,7 @@ Les ports 22, 80, 9929 et 31337 apparaissent en état "open", confirmant la pré
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 Ce laboratoire valide :
 - la bonne utilisation de Nmap

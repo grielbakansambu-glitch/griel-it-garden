@@ -24,7 +24,7 @@ Notes issues de mes cours et de ma pratique personnelle en informatique.
 
 ---
 
-## 💻 Informatique générale (compétences de base)
+## Informatique générale (compétences de base)
 
 - Installation de Windows et Linux  
 - Utilisation de Microsoft Word, Excel, PowerPoint  
@@ -34,14 +34,14 @@ Notes issues de mes cours et de ma pratique personnelle en informatique.
 
 ---
 
-## 💾 Développement & données
+## Développement & données
 - Logique algorithmique de base  
 - HTML (bases)  
 - Introduction aux bases de données (SQL / Access)  
 
 ---
 
-## 🎓 Didactique
+## Didactique
 - Transmission de concepts techniques  
 - Pédagogie appliquée à l’informatique  
 - Simplification de notions complexes  

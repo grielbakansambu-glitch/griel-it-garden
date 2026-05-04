@@ -17,16 +17,16 @@ Bienvenue dans mon Digital Garden — un espace de progression en informatique.
 
 Ici, je documente mon évolution réelle : des bases jusqu’à des compétences en systèmes, réseaux et cybersécurité.
 
-👉 Si tu veux voir du concret rapidement, commence par les laboratoires.
+ Si tu veux voir du concret rapidement, commence par les laboratoires.
 
 Ce site n’est pas une vitrine parfaite.  
 C’est un laboratoire vivant basé sur la pratique, les erreurs et les solutions.
 
 ---
 
-## 🚀 Commencer ici
+##  Commencer ici
 
-👉 Nouveau sur le site ? Voici les meilleurs points de départ :
+ Nouveau sur le site ? Voici les meilleurs points de départ :
 
 - 🛡️ [Voir mes laboratoires](laboratoires)
 - 📚 [Comprendre mes connaissances](connaissances)
@@ -56,7 +56,7 @@ Devenir Administrateur Systèmes & Réseaux spécialisé en infrastructures et t
 
 ---
 
-## 🧭 Explorer le site
+## Explorer le site
 
 Choisis ce que tu veux voir :
 

@@ -18,7 +18,7 @@ title: "Journal de bord"
 
 ---
 
-## 🎯 Objectifs en cours
+## Objectifs en cours
 
 | Objectif | Progression |
 |----------|------------|

@@ -4,13 +4,13 @@ title: "Lab 01 : Analyse de surface d’attaque (Nmap)"
 
 # 🛡️ Analyse de surface d’attaque avec Nmap
 
-## 🎯 Objectif
+## Objectif
 
 Identifier les services exposés sur une cible autorisée afin de comprendre la surface d’attaque réseau.
 
 ---
 
-## 🧱 Environnement
+## Environnement
 
 - Système : Kali Linux
 - Machine : Lenovo ThinkPad i5 / 16GB RAM
@@ -20,7 +20,7 @@ Identifier les services exposés sur une cible autorisée afin de comprendre la 
 
 ---
 
-## ⚙️ Méthodologie
+## Méthodologie
 
 Scan de reconnaissance active avec détection de services et scripts par défaut.
 
