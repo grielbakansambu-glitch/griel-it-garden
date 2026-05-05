@@ -28,29 +28,34 @@ const config: QuartzConfig = {
         code: "IBM Plex Mono",
       },
       colors: {
-        lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
+  lightMode: {
+    light: "#f5f7fa",
+    lightgray: "#dce3ea",
+    gray: "#9aa7b2",
+    darkgray: "#2b3440",
+    dark: "#1e2a36",
+
+    secondary: "#1e88e5",   // 🔵 bleu cyber
+    tertiary: "#2ecc71",    // 🟢 vert tech
+
+    highlight: "rgba(30, 136, 229, 0.15)",
+    textHighlight: "#2ecc7133",
+  },
+
   darkMode: {
-  light: "#0d1117",
-  lightgray: "#30363d",
-  gray: "#8b949e",
-  darkgray: "#c9d1d9",
-  dark: "#f0f6fc",
-  secondary: "#58a6ff",
-  tertiary: "#3fb950",
-  highlight: "rgba(56, 139, 253, 0.15)",
-  textHighlight: "#58a6ff33",
-        },
-      },
+    light: "#0b1220",
+    lightgray: "#1b2633",
+    gray: "#7f8c9a",
+    darkgray: "#cfd8e3",
+    dark: "#f0f6fc",
+
+    secondary: "#1e88e5",   // 🔵 bleu cyber
+    tertiary: "#2ecc71",    // 🟢 vert tech
+
+    highlight: "rgba(30, 136, 229, 0.15)",
+    textHighlight: "#2ecc7133",
+  },
+}
     },
   },
   plugins: {
