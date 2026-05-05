@@ -1,33 +1,72 @@
 @use "./base.scss";
 
-// put your custom CSS here!
-/* --- EFFET GLASSMORPHISM PAR GABRIEL --- */
+// ===============================
+// 🎨 G-RIEL IT GARDEN - UI SYSTEM
+// Effet Glassmorphism + Branding
+// ===============================
 
-.sidebar, .search, .popover {
+// --- GLASS EFFECT (Sidebar, Search, Popover) ---
+.sidebar,
+.search,
+.popover {
   background: rgba(13, 17, 23, 0.78) !important;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   border: 1px solid rgba(255, 255, 255, 0.08) !important;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.35);
 }
 
+// --- HEADER (Sticky + Glass + Pro look) ---
 header {
   background: rgba(13, 17, 23, 0.65) !important;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   position: sticky;
   top: 0;
   z-index: 999;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+// --- LOGO SIZE CONTROL ---
+.page-title img {
+  max-height: 3rem;
+  width: auto;
+  margin: 0;
+  transition: transform 0.2s ease;
+}
+
+.page-title img:hover {
+  transform: scale(1.05);
+}
+
+// --- INTERNAL LINKS (Hover UX amélioré) ---
 a.internal {
   transition: all 0.2s ease;
 }
 
 a.internal:hover {
-  background-color: rgba(88, 166, 255, 0.15);
-  border-radius: 4px;
+  background-color: rgba(211, 47, 47, 0.15); // rouge branding
+  border-radius: 6px;
   text-decoration: none !important;
+}
+
+// --- SCROLLBAR (pro look) ---
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(211, 47, 47, 0.5);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(211, 47, 47, 0.8);
+}
+
+// --- SELECTION TEXT ---
+::selection {
+  background: rgba(211, 47, 47, 0.3);
+  color: #fff;
 }
