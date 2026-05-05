@@ -1,41 +1,19 @@
-@use "./base.scss";
-
-/* =========================
-   G-RIEL IT GARDEN UI
-   BLUE CYBER THEME
-========================= */
-
-/* 🔵 GLASS UI */
-.sidebar,
-.search,
-.popover {
-  background: rgba(13, 17, 23, 0.78) !important;
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border: 1px solid rgba(255, 255, 255, 0.08) !important;
-  border-radius: 12px;
-}
-
-/* 🔵 HEADER + LOGO */
 .page-title {
   display: flex;
   align-items: center;
 
   a {
-    display: inline-block;
-
-    /* masque texte propre */
-    text-indent: -9999px;
-    overflow: hidden;
-
+    display: block;
     width: 200px;
     height: 60px;
 
-    /* ✔ stable Quartz (SCSS OK) */
-    background-image: url("/logo.jpeg");
+    background-image: url("/assets/logo.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+
+    text-indent: -9999px;
+    overflow: hidden;
 
     transition: transform 0.3s ease;
   }
@@ -43,35 +21,4 @@
   a:hover {
     transform: scale(1.05);
   }
-}
-
-/* 🔵 LINKS */
-a.internal {
-  text-decoration: none !important;
-  transition: all 0.2s ease;
-
-  &:hover {
-    background-color: rgba(30, 136, 229, 0.15);
-    border-radius: 4px;
-  }
-}
-
-/* 🔵 SCROLLBAR */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(30, 136, 229, 0.6);
-  border-radius: 10px;
-
-  &:hover {
-    background: rgba(30, 136, 229, 0.9);
-  }
-}
-
-/* 🔵 SELECTION */
-::selection {
-  background: rgba(30, 136, 229, 0.3);
-  color: white;
 }
