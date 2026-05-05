@@ -1,25 +1,23 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
-/**
- * Quartz 4 Configuration - G-RIEL IT GARDEN
- */
-
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "G-RIEL IT GARDEN 🛡️ | Cybersecurity & Labs",
+
     pageTitleSuffix: "",
-    brandLogo: "/static/logo.jpeg",
+
     enableSPA: true,
     enablePopovers: true,
 
-    // 👉 Désactivé pour éviter erreurs si non configuré
-    analytics: null,
-
     locale: "fr-FR",
 
-    // 👉 Version stable pour GitHub Pages
     baseUrl: "grielbakansambu-glitch.github.io",
+
+    // ⚠️ Analytics OBLIGATOIRE → on garde minimal
+    analytics: {
+      provider: "plausible",
+    },
 
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
@@ -27,11 +25,13 @@ const config: QuartzConfig = {
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
+
       typography: {
         header: "Schibsted Grotesk",
         body: "Source Sans Pro",
         code: "IBM Plex Mono",
       },
+
       colors: {
         lightMode: {
           light: "#faf8f8",
@@ -62,36 +62,14 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
-
-      Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "git", "filesystem"],
-      }),
-
-      Plugin.SyntaxHighlighting({
-        theme: {
-          light: "github-light",
-          dark: "github-dark",
-        },
-        keepBackground: false,
-      }),
-
-      Plugin.ObsidianFlavoredMarkdown({
-        enableInHtmlEmbed: false,
-      }),
-
+      Plugin.CreatedModifiedDate(),
+      Plugin.SyntaxHighlighting(),
+      Plugin.ObsidianFlavoredMarkdown(),
       Plugin.GitHubFlavoredMarkdown(),
-
       Plugin.TableOfContents(),
-
-      Plugin.CrawlLinks({
-        markdownLinkResolution: "shortest",
-      }),
-
+      Plugin.CrawlLinks(),
       Plugin.Description(),
-
-      Plugin.Latex({
-        renderEngine: "katex",
-      }),
+      Plugin.Latex(),
     ],
 
     filters: [
@@ -104,12 +82,10 @@ const config: QuartzConfig = {
       Plugin.ContentPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
-
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,
       }),
-
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.Favicon(),
