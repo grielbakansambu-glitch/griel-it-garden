@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "G-RIEL IT GARDEN 🛡️ | Cybersecurity & Labs",
+    pageTitle: "",
 
     pageTitleSuffix: "",
 
