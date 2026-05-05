@@ -1,11 +1,17 @@
 .page-title a {
-  display: block;
-  width: 180px;
-  height: 60px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* LOGO SIMPLE EN IMAGE */
+.page-title a::before {
+  content: "";
+  display: inline-block;
+
+  width: 160px;
+  height: 50px;
 
   background: url("/static/logo.jpeg") no-repeat center;
   background-size: contain;
-
-  text-indent: -9999px;
-  overflow: hidden;
 }
