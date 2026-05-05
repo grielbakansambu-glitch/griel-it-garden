@@ -1,11 +1,11 @@
 @use "./base.scss";
 
-// ===============================
-// 🎨 G-RIEL IT GARDEN - UI SYSTEM
-// Effet Glassmorphism + Branding
-// ===============================
+/* =========================
+   G-RIEL IT GARDEN UI
+   BLUE CYBER THEME
+========================= */
 
-// --- GLASS EFFECT (Sidebar, Search, Popover) ---
+/* 🔵 GLASS UI */
 .sidebar,
 .search,
 .popover {
@@ -13,60 +13,65 @@
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border: 1px solid rgba(255, 255, 255, 0.08) !important;
-  border-radius: 14px;
-  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 12px;
 }
 
-// --- HEADER (Sticky + Glass + Pro look) ---
-header {
-  background: rgba(13, 17, 23, 0.65) !important;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+/* 🔵 HEADER + LOGO */
+.page-title {
+  display: flex;
+  align-items: center;
+
+  a {
+    display: inline-block;
+
+    /* masque texte propre */
+    text-indent: -9999px;
+    overflow: hidden;
+
+    width: 200px;
+    height: 60px;
+
+    /* ✔ stable Quartz (SCSS OK) */
+    background-image: url("/logo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    transition: transform 0.3s ease;
+  }
+
+  a:hover {
+    transform: scale(1.05);
+  }
 }
 
-// --- LOGO SIZE CONTROL ---
-.page-title img {
-  max-height: 3rem;
-  width: auto;
-  margin: 0;
-  transition: transform 0.2s ease;
-}
-
-.page-title img:hover {
-  transform: scale(1.05);
-}
-
-// --- INTERNAL LINKS (Hover UX amélioré) ---
+/* 🔵 LINKS */
 a.internal {
-  transition: all 0.2s ease;
-}
-
-a.internal:hover {
-  background-color: rgba(211, 47, 47, 0.15); // rouge branding
-  border-radius: 6px;
   text-decoration: none !important;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: rgba(30, 136, 229, 0.15);
+    border-radius: 4px;
+  }
 }
 
-// --- SCROLLBAR (pro look) ---
+/* 🔵 SCROLLBAR */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(211, 47, 47, 0.5);
+  background: rgba(30, 136, 229, 0.6);
   border-radius: 10px;
+
+  &:hover {
+    background: rgba(30, 136, 229, 0.9);
+  }
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(211, 47, 47, 0.8);
-}
-
-// --- SELECTION TEXT ---
+/* 🔵 SELECTION */
 ::selection {
-  background: rgba(211, 47, 47, 0.3);
-  color: #fff;
+  background: rgba(30, 136, 229, 0.3);
+  color: white;
 }

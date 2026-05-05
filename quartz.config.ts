@@ -3,8 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "",
-
+    pageTitle: "G-RIEL IT GARDEN 🛡️",
     pageTitleSuffix: "",
 
     enableSPA: true,
@@ -12,9 +11,8 @@ const config: QuartzConfig = {
 
     locale: "fr-FR",
 
-    baseUrl: "grielbakansambu-glitch.github.io",
+    baseUrl: "grielbakansambu-glitch.github.io/griel-it-garden",
 
-    // ⚠️ Analytics OBLIGATOIRE → on garde minimal
     analytics: {
       provider: "plausible",
     },
@@ -39,10 +37,10 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#d32f2f",
+          secondary: "#1e88e5",
           tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          highlight: "rgba(30, 136, 229, 0.15)",
+          textHighlight: "#1e88e588",
         },
         darkMode: {
           light: "#0d1117",
@@ -50,10 +48,10 @@ const config: QuartzConfig = {
           gray: "#8b949e",
           darkgray: "#c9d1d9",
           dark: "#f0f6fc",
-          secondary: "#d32f2f",
+          secondary: "#1e88e5",
           tertiary: "#3fb950",
-          highlight: "rgba(211, 47, 47, 0.15)",
-          textHighlight: "#d32f2f33",
+          highlight: "rgba(30, 136, 229, 0.15)",
+          textHighlight: "#1e88e533",
         },
       },
     },
