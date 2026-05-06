@@ -4,94 +4,79 @@ title: Accueil
 
 <div align="center">
 
-<img src="./assets/logo.png" width="120px" />
+<img src="./assets/photo.png" width="110px" />
 
-# 🛡️ G-RIEL IT GARDEN
+# G-RIEL IT GARDEN
 
 **Gabriel Bakansambu**  
-*Systèmes • Réseaux • Cybersécurité*
-
----
-
-> “Apprendre, pratiquer, documenter, progresser.”
+Systèmes | Réseaux | Cybersécurité
 
 </div>
 
 ---
 
-## 👋 Bienvenue dans mon Digital Garden
+## Profil
 
-Ce site est mon environnement d’apprentissage actif.
+Étudiant en Informatique et Technologie, orienté systèmes, réseaux et cybersécurité.
 
-Je n’y publie pas des résultats parfaits, mais un **processus réel d’évolution en informatique** :
-- études
-- pratiques
-- laboratoires
-- erreurs
-- progression continue
+Je développe mes compétences à travers la formation académique et la pratique personnelle (labs, documentation, projets).
 
 ---
 
-## ⚡ Dashboard principal
+## Objectif
 
-### 🧭 Navigation rapide
-
-- 👤 [À propos](./a-propos/)
-- 🧠 [Méthode d’apprentissage](./methode/)
-- 📚 [Connaissances](./connaissances/)
-- 🛡️ [Laboratoires](./laboratoires/)
-- 📈 [Journal d’évolution](./journal/)
-- 🧪 [Projets](./projets/)
-- 🔗 [Ressources](./ressources/)
-- 📝 [Notes](./notes/)
+Administrateur Systèmes & Réseaux  
+Spécialisation progressive en cybersécurité et infrastructure IT.
 
 ---
 
-## 🔬 Zone technique récente
+## Navigation
 
-- 🔎 Analyse réseau avec Nmap  
-- 📊 Études des bases en réseaux informatiques  
-- 🐧 Initiation Linux (terminal & commandes)  
-- 💾 Bases de données (SQL / Access)
-
----
-
-## 🎯 Objectif
-
-Devenir **Administrateur Systèmes & Réseaux**, avec une spécialisation progressive en :
-
-- cybersécurité
-- infrastructure réseau
-- administration Linux
-- analyse système
+- [À propos](./a-propos/)
+- [Méthode](./methode/)
+- [Connaissances](./connaissances/)
+- [Laboratoires](./laboratoires/)
+- [Journal](./journal/)
+- [Projets](./projets/)
+- [Ressources](./ressources/)
+- [Notes](./notes/)
 
 ---
 
-## 📊 Statut actuel
+## Activités récentes
 
-- 🟢 Formation en cours (L2 Informatique et Technologie)
-- 🟡 Compétences techniques en construction
-- 🔵 Orientation : cybersécurité & systèmes
-
----
-
-## 📄 CV
-
-📥 [Télécharger mon CV](./assets/pdf/cv-gabriel.pdf)
+- Analyse réseau avec Nmap
+- Introduction Linux (terminal et commandes)
+- Bases de réseaux informatiques
+- Bases de données (SQL / Access)
 
 ---
 
-## 📱 Contact
+## Statut
 
-- GitHub : https://github.com/grielbakansambu-glitch  
-- TikTok : https://www.tiktok.com/@griel_it  
-- WhatsApp : https://wa.me/243840609505  
-- Facebook : https://www.facebook.com/share/18bjVsonbi/
+Formation : L2 Informatique et Technologie  
+Orientation : Systèmes, Réseaux, Cybersécurité  
+Niveau : Apprentissage actif
+
+---
+
+## CV
+
+Télécharger : [CV](./assets/pdf/cv.pdf)
+
+---
+
+## Contact
+
+GitHub : https://github.com/grielbakansambu-glitch  
+TikTok : https://www.tiktok.com/@griel_it  
+WhatsApp : https://wa.me/243840609505  
+Facebook : https://www.facebook.com/share/18bjVsonbi/
 
 ---
 
 <div align="center">
 
-<small>🛠️ Construit avec discipline • Apprentissage continu • Vision long terme</small>
+<small>Apprentissage continu • Documentation • Discipline</small>
 
 </div>
