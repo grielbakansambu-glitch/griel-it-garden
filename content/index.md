@@ -2,164 +2,96 @@
 title: Accueil
 ---
 
-# G-RIEL IT GARDEN
+<div align="center">
 
-> Étudiant en Informatique (ISP Mbanza-Ngungu)  
-> Futur Administrateur Systèmes & Réseaux  
+<img src="./assets/logo.png" width="120px" />
 
-**Documenter pour apprendre. Pratiquer pour construire. Partager pour progresser.**
+# 🛡️ G-RIEL IT GARDEN
 
----
-
-## Bienvenue
-
-Bienvenue dans mon Digital Garden — un espace de progression en informatique.
-
-Ici, je documente mon évolution réelle : des bases jusqu’à des compétences en systèmes, réseaux et cybersécurité.
-
- Si tu veux voir du concret rapidement, commence par les laboratoires.
-
-Ce site n’est pas une vitrine parfaite.  
-C’est un laboratoire vivant basé sur la pratique, les erreurs et les solutions.
+**Gabriel Bakansambu**  
+*Systèmes • Réseaux • Cybersécurité*
 
 ---
 
-##  Commencer ici
-
- Nouveau sur le site ? Voici les meilleurs points de départ :
-
-- 🛡️ [Voir mes laboratoires](laboratoires)
-- 📚 [Comprendre mes connaissances](connaissances)
-- 📈 [Suivre ma progression](journal)
-
----
-
-## Profil
-
-<img src="./gabriel-photo.jpg" alt="Photo de Gabriel Bakansambu" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; border: 2px solid #58a6ff;">
-
-**Étudiant en Licence 2 – Didactique de l’Informatique Technologie (ISP Mbanza-Ngungu)**  
-**Stagiaire en informatique (ITC Badika)**  
-
-Je construis mes compétences en informatique à travers une approche pratique et structurée :
-
-**apprendre → pratiquer → documenter → partager**
-
----
-
-Je ne me présente pas comme expert, mais comme un apprenant en progression constante, qui transforme chaque exercice en preuve concrète.
-
----
-
-**Objectif :**  
-Devenir Administrateur Systèmes & Réseaux spécialisé en infrastructures et télécommunications.
-
----
-
-## Explorer le site
-
-Choisis ce que tu veux voir :
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
-
-<a href="laboratoires" style="text-decoration: none;">
-<div style="padding: 16px; border-radius: 12px; background: rgba(255,255,255,0.05); backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,0.1);">
-<strong>Laboratoires</strong><br>
-<span style="font-size: 14px;">Expérimentations réelles, erreurs et corrections</span>
-</div>
-</a>
-
-<a href="connaissances" style="text-decoration: none;">
-<div style="padding: 16px; border-radius: 12px; background: rgba(255,255,255,0.05); backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,0.1);">
-<strong>Connaissances</strong><br>
-<span style="font-size: 14px;">Concepts expliqués simplement</span>
-</div>
-</a>
-
-<a href="journal" style="text-decoration: none;">
-<div style="padding: 16px; border-radius: 12px; background: rgba(255,255,255,0.05); backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,0.1);">
-<strong>Journal</strong><br>
-<span style="font-size: 14px;">Suivre mon évolution réelle</span>
-</div>
-</a>
-
-<a href="didactique" style="text-decoration: none;">
-<div style="padding: 16px; border-radius: 12px; background: rgba(255,255,255,0.05); backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,0.1);">
-<strong>Didactique</strong><br>
-<span style="font-size: 14px;">Apprendre à expliquer l’informatique</span>
-</div>
-</a>
-
-<a href="a-propos" style="text-decoration: none;">
-<div style="padding: 16px; border-radius: 12px; background: rgba(255,255,255,0.05); backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,0.1);">
-<strong>À propos</strong><br>
-<span style="font-size: 14px;">Vision et stratégie personnelle</span>
-</div>
-</a>
+> “Apprendre, pratiquer, documenter, progresser.”
 
 </div>
 
 ---
 
-## 🛠️ Travaux récents (preuves de progression)
+## 👋 Bienvenue dans mon Digital Garden
 
-Voici quelques travaux récents réalisés dans mon apprentissage pratique :
+Ce site est mon environnement d’apprentissage actif.
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px;">
-
-<a href="02_Logs_Techniques/Scan-Reseau-Nmap" style="text-decoration: none;">
-<div style="padding: 16px; border-radius: 12px; background: rgba(255,255,255,0.05); backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,0.1);">
-<strong>Analyse réseau – Scan Nmap</strong><br>
-<span style="font-size: 14px;">Découverte et analyse d’un réseau local</span>
-</div>
-</a>
-
-<a href="02_Logs_Techniques/Plan-Contenu-TikTok" style="text-decoration: none;">
-<div style="padding: 16px; border-radius: 12px; background: rgba(255,255,255,0.05); backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,0.1);">
-<strong>Plan TikTok – Cybersécurité</strong><br>
-<span style="font-size: 14px;">Stratégie de contenu technique</span>
-</div>
-</a>
-
-<a href="04_Didactique/Ma-Methode" style="text-decoration: none;">
-<div style="padding: 16px; border-radius: 12px; background: rgba(255,255,255,0.05); backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,0.1);">
-<strong>Système d’apprentissage</strong><br>
-<span style="font-size: 14px;">Méthode et discipline personnelle</span>
-</div>
-</a>
-
-</div>
+Je n’y publie pas des résultats parfaits, mais un **processus réel d’évolution en informatique** :
+- études
+- pratiques
+- laboratoires
+- erreurs
+- progression continue
 
 ---
 
-## Compétences (en progression)
+## ⚡ Dashboard principal
 
-**Systèmes & Maintenance**
-- Installation Windows / Linux → En cours  
-- Maintenance informatique → En cours  
-- Outils bureautiques → Acquis  
+### 🧭 Navigation rapide
 
-**Développement & Data**
-- HTML → Bases  
-- SQL / Access / Excel → En cours  
-- Flutter → En apprentissage  
-
-**Réseaux & Cybersécurité**
-- TCP/IP → Bases  
-- Kali Linux → En apprentissage  
-- Nmap → Premiers tests  
+- 👤 [À propos](./a-propos/)
+- 🧠 [Méthode d’apprentissage](./methode/)
+- 📚 [Connaissances](./connaissances/)
+- 🛡️ [Laboratoires](./laboratoires/)
+- 📈 [Journal d’évolution](./journal/)
+- 🧪 [Projets](./projets/)
+- 🔗 [Ressources](./ressources/)
+- 📝 [Notes](./notes/)
 
 ---
 
-## Vision
+## 🔬 Zone technique récente
 
-Construire une expertise solide en systèmes et réseaux, évoluer vers les télécommunications, et développer une approche basée sur la pratique réelle et la documentation continue.
+- 🔎 Analyse réseau avec Nmap  
+- 📊 Études des bases en réseaux informatiques  
+- 🐧 Initiation Linux (terminal & commandes)  
+- 💾 Bases de données (SQL / Access)
 
 ---
 
-## Contact
+## 🎯 Objectif
 
-- TikTok : [@griel_it](https://www.tiktok.com/@griel_it)  
-- GitHub : [grielbakansambu-glitch](https://github.com/grielbakansambu-glitch)  
-- Facebook : [G-riel IT](https://www.facebook.com/share/18bjVsonbi/)  
-- WhatsApp : [Me contacter directement](https://wa.me/243840609505)
+Devenir **Administrateur Systèmes & Réseaux**, avec une spécialisation progressive en :
+
+- cybersécurité
+- infrastructure réseau
+- administration Linux
+- analyse système
+
+---
+
+## 📊 Statut actuel
+
+- 🟢 Formation en cours (L2 Informatique et Technologie)
+- 🟡 Compétences techniques en construction
+- 🔵 Orientation : cybersécurité & systèmes
+
+---
+
+## 📄 CV
+
+📥 [Télécharger mon CV](./assets/pdf/cv-gabriel.pdf)
+
+---
+
+## 📱 Contact
+
+- GitHub : https://github.com/grielbakansambu-glitch  
+- TikTok : https://www.tiktok.com/@griel_it  
+- WhatsApp : https://wa.me/243840609505  
+- Facebook : https://www.facebook.com/share/18bjVsonbi/
+
+---
+
+<div align="center">
+
+<small>🛠️ Construit avec discipline • Apprentissage continu • Vision long terme</small>
+
+</div>
