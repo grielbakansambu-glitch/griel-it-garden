@@ -46,3 +46,20 @@ header > div {
   display: flex;
   align-items: center;
 }
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.6;
+}
+
+.page {
+  max-width: 900px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
