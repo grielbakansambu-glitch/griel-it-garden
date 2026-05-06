@@ -76,6 +76,16 @@ Journal
 
 ---
 
+
+📱 Contact
+
+- GitHub : https://github.com/grielbakansambu-glitch  
+- TikTok : https://www.tiktok.com/@griel_it  
+- WhatsApp : https://wa.me/243840609505  
+- Facebook : https://www.facebook.com/share/18bjVsonbi/
+
+
+
 <div align="center">
 
 <small>Discipline • Apprentissage continu • Vision long terme</small>
