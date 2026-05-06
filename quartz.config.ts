@@ -11,7 +11,7 @@ const config: QuartzConfig = {
 
     locale: "fr-FR",
 
-    baseUrl: "https://grielbakansambu-glitch.github.io/griel-it-garden/",
+    baseUrl: "grielbakansambu-glitch.github.io/griel-it-garden",
 
     analytics: {
       provider: "plausible",
