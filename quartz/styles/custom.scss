@@ -1,14 +1,17 @@
-/* 🔴 FIX LOGO DEFINITIF */
 .page-title a {
-  background-image: url("/griel-it-garden/static/logo.jpeg") !important;
-  background-repeat: no-repeat !important;
-  background-position: left center !important;
-  background-size: contain !important;
+  background-image: url("/griel-it-garden/static/logo.png") !important;
 
-  display: block !important;
-  width: 200px !important;
-  height: 60px !important;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+
+  display: block;
+  width: 200px;
+  height: 60px;
 
   text-indent: -9999px;
   overflow: hidden;
+
+  /* effet visuel */
+  filter: drop-shadow(0 0 6px rgba(30,136,229,0.4));
 }
