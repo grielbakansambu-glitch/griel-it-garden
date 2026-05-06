@@ -1,22 +1,14 @@
-@use "./base.scss";
-
-/* ======================
-   FIX SIMPLE & STABLE
-====================== */
-
-/* 🔵 LOGO EN HAUT À GAUCHE */
+/* 🔴 FIX LOGO DEFINITIF */
 .page-title a {
-  display: block;
-  width: 180px;
-  height: 50px;
+  background-image: url("/griel-it-garden/static/logo.jpeg") !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  background-size: contain !important;
 
-  background-image: url("/static/logo.jpeg");
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: contain;
+  display: block !important;
+  width: 200px !important;
+  height: 60px !important;
 
   text-indent: -9999px;
   overflow: hidden;
 }
-
-/* 🔵 NE TOUCHE PAS AUX COULEURS DU SITE */
