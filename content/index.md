@@ -11,9 +11,9 @@ title: Accueil
 # G-RIEL IT GARDEN
 
 **Gabriel Bakansambu**  
-*Systèmes • Réseaux • Documentation technique*
+*Systèmes • Réseaux • Documentation technique et didactique*
 
-> “Apprendre, pratiquer, documenter, progresser.”
+> “Documentation personnelle • Laboratoire numérique • Notes d’apprentissage”
 
 </div>
 
@@ -151,6 +151,13 @@ Journal
 📄 [Télécharger mon CV](./assets/pdf/cv-gabriel.pdf)
 
 ---
+
+## Dernières notes
+
+- Installation de Kali Linux
+- Découverte des commandes Bash
+- Introduction aux réseaux
+- Configuration VirtualBox
 
 - GitHub : [Mon GitHub](https://github.com/grielbakansambu-glitch)
 - TikTok : [Mon TikTok](https://www.tiktok.com/@griel_it)
