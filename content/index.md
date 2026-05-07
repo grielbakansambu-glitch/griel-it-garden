@@ -51,8 +51,7 @@ display:grid;
 grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
 gap:16px;
 max-width:900px;
-margin:auto;
-">
+margin:auto;">
 
 <a href="./a-propos/" 
 style="
