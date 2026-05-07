@@ -11,7 +11,7 @@ title: Accueil
 # G-RIEL IT GARDEN
 
 **Gabriel Bakansambu**  
-*Systèmes • Réseaux • Cybersécurité*
+*Systèmes • Réseaux • Documentation technique*
 
 > “Apprendre, pratiquer, documenter, progresser.”
 
@@ -19,41 +19,105 @@ title: Accueil
 
 ---
 
-## Bienvenue
+## À propos
 
-Bienvenue dans mon Digital Garden.
+Je suis Gabriel Bakansambu Basikila, étudiant en Didactique de l’Informatique et Technologie à l’ISP Mbanza-Ngungu.
 
-Un espace où je développe mes compétences en :
-- Systèmes
-- Réseaux
-- Cybersécurité
-- Linux
+J’apprends l’informatique à travers la formation académique, mais surtout par la pratique personnelle, l’expérimentation et la documentation continue.
 
 ---
 
 ## Objectif
 
-Devenir Administrateur Systèmes & Réseaux, avec une évolution progressive vers la cybersécurité.
+Centraliser mon apprentissage et suivre ma progression à travers un laboratoire numérique personnel qui évolue avec le temps.
+
+---
+
+## Ce que tu peux trouver ici
+
+Au fil de ce site, je partage :
+
+- des notes techniques ;
+- des laboratoires et expérimentations ;
+- des projets personnels ;
+- des ressources d’apprentissage ;
+- des traces de ma progression.
 
 ---
 
 ## Navigation
 
-<div style="display:grid; gap:12px; max-width:500px; margin:auto;">
+<div style="display:grid; gap:14px; max-width:500px; margin:auto;">
 
-<a href="./a-propos/" style="padding:14px; background:#0f172a; color:white; border-radius:12px; text-align:center; text-decoration:none; font-weight:bold; border:1px solid #00CFE0;">
+<a href="./a-propos/" 
+style="
+padding:14px;
+background:rgba(15, 23, 42, 0.55);
+backdrop-filter:blur(10px);
+-webkit-backdrop-filter:blur(10px);
+color:white;
+border-radius:14px;
+text-align:center;
+text-decoration:none;
+font-weight:bold;
+border:1px solid rgba(0, 207, 224, 0.5);
+box-shadow:0 4px 20px rgba(0,0,0,0.25);
+display:block;
+">
 À propos
 </a>
 
-<a href="./laboratoires/" style="padding:14px; background:#0f172a; color:white; border-radius:12px; text-align:center; text-decoration:none; font-weight:bold; border:1px solid #00CFE0;">
+<a href="./laboratoires/" 
+style="
+padding:14px;
+background:rgba(15, 23, 42, 0.55);
+backdrop-filter:blur(10px);
+-webkit-backdrop-filter:blur(10px);
+color:white;
+border-radius:14px;
+text-align:center;
+text-decoration:none;
+font-weight:bold;
+border:1px solid rgba(0, 207, 224, 0.5);
+box-shadow:0 4px 20px rgba(0,0,0,0.25);
+display:block;
+">
 Laboratoires
 </a>
 
-<a href="./connaissances/" style="padding:14px; background:#0f172a; color:white; border-radius:12px; text-align:center; text-decoration:none; font-weight:bold; border:1px solid #00CFE0;">
+<a href="./connaissances/" 
+style="
+padding:14px;
+background:rgba(15, 23, 42, 0.55);
+backdrop-filter:blur(10px);
+-webkit-backdrop-filter:blur(10px);
+color:white;
+border-radius:14px;
+text-align:center;
+text-decoration:none;
+font-weight:bold;
+border:1px solid rgba(0, 207, 224, 0.5);
+box-shadow:0 4px 20px rgba(0,0,0,0.25);
+display:block;
+">
 Connaissances
 </a>
 
-<a href="./journal/" style="padding:14px; background:#0f172a; color:white; border-radius:12px; text-align:center; text-decoration:none; font-weight:bold; border:1px solid #00CFE0;">
+<a href="./journal/" 
+style="
+padding:14px;
+background:rgba(15, 23, 42, 0.55);
+backdrop-filter:blur(10px);
+-webkit-backdrop-filter:blur(10px);
+color:white;
+border-radius:14px;
+text-align:center;
+text-decoration:none;
+font-weight:bold;
+border:1px solid rgba(0, 207, 224, 0.5);
+box-shadow:0 4px 20px rgba(0,0,0,0.25);
+display:block;
+">
 Journal
 </a>
 
@@ -61,12 +125,24 @@ Journal
 
 ---
 
-## Statut
+## Domaines explorés
 
-- Étudiant L2 Informatique
-- Réseaux en progression
-- Linux en apprentissage
-- Cybersécurité débutante
+- Linux & systèmes  
+- Réseaux informatiques  
+- Bases de données  
+- Maintenance informatique  
+- Documentation technique  
+- Didactique de l’informatique  
+- Cybersécurité (en apprentissage)
+
+---
+
+## Statut actuel
+
+- Étudiant en L2 Informatique et Technologie  
+- Développement progressif de compétences en systèmes et réseaux  
+- Apprentissage actif de Linux  
+- Construction d’un laboratoire numérique personnel  
 
 ---
 
@@ -76,18 +152,20 @@ Journal
 
 ---
 
+- GitHub : [Mon GitHub](https://github.com/grielbakansambu-glitch)
+- TikTok : [Mon TikTok](https://www.tiktok.com/@griel_it)
+- WhatsApp : [Me contacter](https://wa.me/243840609505)
+- Facebook : [Ma page Facebook](https://www.facebook.com/share/18bjVsonbi/)
 
-📱 Contact
-
-- GitHub : https://github.com/grielbakansambu-glitch  
-- TikTok : https://www.tiktok.com/@griel_it  
-- WhatsApp : https://wa.me/243840609505  
-- Facebook : https://www.facebook.com/share/18bjVsonbi/
-
-
+---
 
 <div align="center">
 
-<small>Discipline • Apprentissage continu • Vision long terme</small>
+<small>
+
+J’apprends en construisant.  
+Ce site évolue avec mon parcours.
+
+</small>
 
 </div>
