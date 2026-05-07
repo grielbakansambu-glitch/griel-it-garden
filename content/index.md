@@ -12,7 +12,6 @@ title: Accueil
 
 **Gabriel Bakansambu**  
 *Systèmes • Réseaux • Documentation technique et didactique*
-
 > “Documentation personnelle • Laboratoire numérique • Notes d’apprentissage”
 
 </div>
@@ -47,7 +46,13 @@ Au fil de ce site, je partage :
 
 ## Navigation
 
-<div style="display:grid; gap:14px; max-width:500px; margin:auto;">
+<div style="
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+gap:16px;
+max-width:900px;
+margin:auto;
+">
 
 <a href="./a-propos/" 
 style="
