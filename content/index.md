@@ -159,6 +159,10 @@ Journal
 - Introduction aux réseaux
 - Configuration VirtualBox
 
+---
+
+## CONTACT
+
 - GitHub : [Mon GitHub](https://github.com/grielbakansambu-glitch)
 - TikTok : [Mon TikTok](https://www.tiktok.com/@griel_it)
 - WhatsApp : [Me contacter](https://wa.me/243840609505)
