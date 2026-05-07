@@ -28,32 +28,19 @@ header {
   overflow: hidden;
 }
 
-/* SEARCH À DROITE */
-.search {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-}
-
-/* STYLE INPUT SEARCH */
-.search input {
-  border-radius: 8px;
-  padding: 0.4rem 0.6rem;
-}
-
-/* FIX ALIGNEMENT HEADER (important Quartz) */
+/* FIX ALIGNEMENT HEADER */
 header > div {
   display: flex;
   align-items: center;
 }
+
+/* =========================
+   BASE TYPO & LINKS
+========================= */
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   line-height: 1.6;
-}
-
-.page {
-  max-width: 900px;
-  margin: auto;
 }
 
 a {
@@ -62,4 +49,43 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+/* IMPORTANT: NE PAS LIMITER LA PAGE */
+.page {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+/* =========================
+   LAYOUT DESKTOP 3 COLONNES
+========================= */
+
+@media screen and (min-width: 1200px) {
+
+  .page {
+    display: grid !important;
+    grid-template-columns: 280px minmax(0, 1fr) 320px !important;
+    gap: 2rem;
+  }
+
+  .left.sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .right.sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  article {
+    min-width: 0;
+    width: 100%;
+  }
 }
