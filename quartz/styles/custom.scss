@@ -1,91 +1,80 @@
+  
 /* =========================
-   HEADER PRO CYBER CLEAN
+   HEADER & LOGO
 ========================= */
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.8rem 1.2rem;
-}
-
-/* LOGO À GAUCHE */
 .page-title {
   display: flex;
   align-items: center;
+  margin: 0;
 }
 
 .page-title a {
   display: inline-block;
-
   width: 180px;
   height: 50px;
-
   background: url("/griel-it-garden/static/logo.png") no-repeat left center;
   background-size: contain;
-
   text-indent: -9999px;
   overflow: hidden;
 }
 
-/* FIX ALIGNEMENT HEADER */
-header > div {
-  display: flex;
-  align-items: center;
+/* =========================
+   LAYOUT SAFE (QUARTZ FRIENDLY)
+========================= */
+
+/* On libère légèrement la largeur sans casser Quartz */
+.page {
+  max-width: 1400px !important;
+  width: 95% !important;
+  margin: 0 auto !important;
+}
+
+/* Lecture centrale propre */
+article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Sidebars naturelles (PAS de grid forcé) */
+@media screen and (min-width: 1200px) {
+  .sidebar {
+    position: sticky;
+    top: 2rem;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+  }
 }
 
 /* =========================
-   BASE TYPO & LINKS
+   GLASSMORPHISM LÉGER (SAFE)
+========================= */
+
+/* Effet vitre sur blocs principaux sans casser Quartz */
+pre, blockquote, .callout, .card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+}
+
+/* =========================
+   TYPO CLEAN
 ========================= */
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
+/* liens propres */
 a {
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-}
-
-/* IMPORTANT: NE PAS LIMITER LA PAGE */
-.page {
-  width: 100%;
-  max-width: none;
-  margin: 0;
-}
-
-/* =========================
-   LAYOUT DESKTOP 3 COLONNES
-========================= */
-
-@media screen and (min-width: 1200px) {
-
-  .page {
-    display: grid !important;
-    grid-template-columns: 280px minmax(0, 1fr) 320px !important;
-    gap: 2rem;
-  }
-
-  .left.sidebar {
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    overflow-y: auto;
-  }
-
-  .right.sidebar {
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    overflow-y: auto;
-  }
-
-  article {
-    min-width: 0;
-    width: 100%;
-  }
+  opacity: 0.85;
 }
