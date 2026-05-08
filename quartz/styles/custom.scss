@@ -38,6 +38,7 @@ a {
 a:hover {
   text-decoration: underline;
   opacity: 0.85;
+  transform: translateY(-2px);
 }
 
 /* ========================================
@@ -47,30 +48,32 @@ a:hover {
 pre,
 blockquote,
 .callout,
-.card {
+.card,
+.graph,
+.toc {
   background: rgba(255, 255, 255, 0.05);
 
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 14px;
+  border-radius: 16px;
 }
 
 /* ========================================
-   DESKTOP LAYOUT STABILIZATION
+   TRUE QUARTZ DESKTOP GRID
 ======================================== */
 
 @media screen and (min-width: 1200px) {
 
-  /* STRUCTURE PRINCIPALE */
-  .page {
+  /* CONTAINER PRINCIPAL */
+  #quartz-body {
     display: grid !important;
 
     grid-template-columns:
       270px
       minmax(0, 1fr)
-      310px !important;
+      310px;
 
     gap: 2rem;
 
@@ -79,15 +82,17 @@ blockquote,
 
     margin: 0 auto;
     padding: 0 1rem;
+
+    align-items: start;
   }
 
-  /* SIDEBARS */
-  .sidebar {
-    min-width: 0;
-  }
+  /* ========================================
+     LEFT SIDEBAR
+  ======================================== */
 
-  .left.sidebar,
-  .right.sidebar {
+  .left.sidebar {
+    grid-column: 1;
+
     position: sticky;
     top: 1rem;
 
@@ -96,24 +101,54 @@ blockquote,
     overflow-y: auto;
     overflow-x: hidden;
 
-    padding-right: 0.4rem;
+    padding-right: 0.5rem;
   }
 
-  /* CONTENU CENTRAL */
-  article {
-    min-width: 0 !important;
+  /* ========================================
+     CENTER CONTENT
+  ======================================== */
 
+  .center {
+    grid-column: 2;
+
+    min-width: 0 !important;
+    width: 100%;
+  }
+
+  article {
     width: 100%;
     max-width: 850px;
 
     margin: 0 auto;
 
+    min-width: 0 !important;
     overflow-x: hidden;
 
     padding: 0 0.5rem;
   }
 
-  /* TITRES */
+  /* ========================================
+     RIGHT SIDEBAR
+  ======================================== */
+
+  .right.sidebar {
+    grid-column: 3;
+
+    position: sticky;
+    top: 1rem;
+
+    height: calc(100vh - 2rem);
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    padding-right: 0.5rem;
+  }
+
+  /* ========================================
+     TITRES & TEXTE
+  ======================================== */
+
   article h1,
   article h2,
   article h3,
@@ -123,7 +158,10 @@ blockquote,
     word-break: break-word;
   }
 
-  /* IMAGES */
+  /* ========================================
+     IMAGES
+  ======================================== */
+
   article img {
     max-width: 100%;
     height: auto;
@@ -133,35 +171,35 @@ blockquote,
     border-radius: 14px;
   }
 
-  /* CODE BLOCKS */
+  /* ========================================
+     CODE BLOCKS
+  ======================================== */
+
   pre {
     overflow-x: auto;
     max-width: 100%;
+    padding: 1rem;
   }
 
-  /* TABLES */
+  /* ========================================
+     TABLES
+  ======================================== */
+
   table {
     display: block;
     overflow-x: auto;
     max-width: 100%;
   }
 
-  /* GRAPH */
+  /* ========================================
+     GRAPH
+  ======================================== */
+
   .graph {
-    background: rgba(255, 255, 255, 0.04);
-
-    border: 1px solid rgba(255, 255, 255, 0.08);
-
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-
-    border-radius: 18px;
-
     padding: 1rem;
     margin-bottom: 1.5rem;
 
     overflow: hidden;
-
     max-width: 100%;
   }
 
@@ -170,17 +208,11 @@ blockquote,
     height: auto;
   }
 
-  /* TABLE OF CONTENTS */
+  /* ========================================
+     TABLE OF CONTENTS
+  ======================================== */
+
   .toc {
-    background: rgba(255, 255, 255, 0.04);
-
-    border: 1px solid rgba(255, 255, 255, 0.08);
-
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-
-    border-radius: 18px;
-
     padding: 1rem;
 
     overflow-y: auto;
@@ -198,19 +230,12 @@ blockquote,
     margin-bottom: 0.4rem;
   }
 
-  /* EXPLORER */
+  /* ========================================
+     EXPLORER
+  ======================================== */
+
   .explorer {
     padding-bottom: 3rem;
-  }
-
-  /* SCROLLBAR */
-  ::-webkit-scrollbar {
-    width: 8px;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.12);
-    border-radius: 20px;
   }
 }
 
@@ -221,8 +246,6 @@ blockquote,
 * {
   box-sizing: border-box;
 }
-
-/* FIX OVERFLOW QUARTZ */
 
 .center,
 article,
