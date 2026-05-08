@@ -86,10 +86,7 @@ blockquote,
     align-items: start;
   }
 
-  /* ========================================
-     LEFT SIDEBAR
-  ======================================== */
-
+  /* LEFT SIDEBAR */
   .left.sidebar {
     grid-column: 1;
 
@@ -101,13 +98,10 @@ blockquote,
     overflow-y: auto;
     overflow-x: hidden;
 
-    padding-right: 0.5rem;
+    padding-right: 0.4rem;
   }
 
-  /* ========================================
-     CENTER CONTENT
-  ======================================== */
-
+  /* CENTER CONTENT */
   .center {
     grid-column: 2;
 
@@ -127,10 +121,7 @@ blockquote,
     padding: 0 0.5rem;
   }
 
-  /* ========================================
-     RIGHT SIDEBAR
-  ======================================== */
-
+  /* RIGHT SIDEBAR */
   .right.sidebar {
     grid-column: 3;
 
@@ -142,13 +133,15 @@ blockquote,
     overflow-y: auto;
     overflow-x: hidden;
 
-    padding-right: 0.5rem;
+    padding-left: 0.4rem;
   }
 
-  /* ========================================
-     TITRES & TEXTE
-  ======================================== */
+  /* SEARCH BAR */
+  .search {
+    margin-bottom: 1rem;
+  }
 
+  /* TITRES */
   article h1,
   article h2,
   article h3,
@@ -158,10 +151,7 @@ blockquote,
     word-break: break-word;
   }
 
-  /* ========================================
-     IMAGES
-  ======================================== */
-
+  /* IMAGES */
   article img {
     max-width: 100%;
     height: auto;
@@ -171,35 +161,27 @@ blockquote,
     border-radius: 14px;
   }
 
-  /* ========================================
-     CODE BLOCKS
-  ======================================== */
-
+  /* CODE BLOCKS */
   pre {
     overflow-x: auto;
     max-width: 100%;
     padding: 1rem;
   }
 
-  /* ========================================
-     TABLES
-  ======================================== */
-
+  /* TABLES */
   table {
     display: block;
     overflow-x: auto;
     max-width: 100%;
   }
 
-  /* ========================================
-     GRAPH
-  ======================================== */
-
+  /* GRAPH */
   .graph {
     padding: 1rem;
     margin-bottom: 1.5rem;
 
     overflow: hidden;
+
     max-width: 100%;
   }
 
@@ -208,10 +190,7 @@ blockquote,
     height: auto;
   }
 
-  /* ========================================
-     TABLE OF CONTENTS
-  ======================================== */
-
+  /* TOC */
   .toc {
     padding: 1rem;
 
@@ -230,12 +209,19 @@ blockquote,
     margin-bottom: 0.4rem;
   }
 
-  /* ========================================
-     EXPLORER
-  ======================================== */
-
+  /* EXPLORER */
   .explorer {
     padding-bottom: 3rem;
+  }
+
+  /* SCROLLBAR */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
   }
 }
 

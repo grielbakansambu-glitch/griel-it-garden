@@ -1,13 +1,13 @@
+import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-import type { PageLayout as PageLayout } from "./quartz/cfg"
 
 // Composants globaux
-export const sharedPageComponents = {
+export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [],
   footer: Component.Footer({
-    links: {}
+    links: {},
   }),
 }
 
@@ -20,15 +20,25 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
 
+  // SIDEBAR GAUCHE
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
     Component.Explorer(),
   ],
 
+  // SIDEBAR DROITE
   right: [
+    Component.Flex({
+      components: [
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
+        { Component: Component.Darkmode() },
+      ],
+    }),
+
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
