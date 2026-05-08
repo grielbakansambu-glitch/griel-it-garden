@@ -1,6 +1,8 @@
 ---
 title: "👤 À propos"
 lastmod: 2026-05-08
+<div class="glass">
+
 ---
 
 ![Photo de Gabriel](../assets/photo.png)
@@ -12,21 +14,21 @@ lastmod: 2026-05-08
 
 ---
 
-## 🎓 Parcours académique
+##  Parcours académique
 
-### 🏫 ISP Mbanza-Ngungu *(En cours)*
+###  ISP Mbanza-Ngungu *(En cours)*
 
 - Licence 2 en Didactique de l’Informatique et de la Technologie
 - Apprentissage des réseaux, systèmes Linux et outils informatiques
 - Développement progressif en cybersécurité et administration système
 
-### 📜 Institut Saint Joseph / Songololo
+###  Institut Saint Joseph / Songololo
 
 - Diplôme d’État en Pédagogie Générale
 
 Cette formation m’a permis de développer des bases solides en méthodologie, organisation et transmission des connaissances.
 
-### 🧒 École Primaire EP2 / Songololo
+###  École Primaire EP2 / Songololo
 
 - Certificat de fin d’études primaires
 
@@ -45,7 +47,7 @@ Mon objectif est de construire progressivement des compétences techniques réel
 
 ---
 
-## 💻 Domaines explorés
+##  Domaines explorés
 
 - Linux & systèmes
 - Réseaux informatiques
@@ -56,7 +58,7 @@ Mon objectif est de construire progressivement des compétences techniques réel
 
 ---
 
-## 🥊 Discipline & mentalité
+##  Discipline & mentalité
 
 La boxe fait partie de ma discipline quotidienne.
 
@@ -71,13 +73,15 @@ Cette discipline influence également ma manière d’apprendre et de travailler
 
 ---
 
-## 📍 Informations
+##  Informations
 
 - Origine : Songololo — Kongo Central
 - Résidence actuelle : Kinshasa — RDC
 - Projet personnel : G-RIEL IT GARDEN
 
 ---
+
+</div>
 
 > J’apprends en construisant.  
 > Ce site évolue avec mon parcours.
