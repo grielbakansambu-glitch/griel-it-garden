@@ -1,7 +1,6 @@
-  
-/* =========================
+/* ========================================
    HEADER & LOGO
-========================= */
+======================================== */
 
 .page-title {
   display: flex;
@@ -13,68 +12,221 @@
   display: inline-block;
   width: 180px;
   height: 50px;
+
   background: url("/griel-it-garden/static/logo.png") no-repeat left center;
   background-size: contain;
+
   text-indent: -9999px;
   overflow: hidden;
 }
 
-/* =========================
-   LAYOUT SAFE (QUARTZ FRIENDLY)
-========================= */
-
-/* On libère légèrement la largeur sans casser Quartz */
-.page {
-  max-width: 1400px !important;
-  width: 95% !important;
-  margin: 0 auto !important;
-}
-
-/* Lecture centrale propre */
-article {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-/* Sidebars naturelles (PAS de grid forcé) */
-@media screen and (min-width: 1200px) {
-  .sidebar {
-    position: sticky;
-    top: 2rem;
-    max-height: calc(100vh - 4rem);
-    overflow-y: auto;
-  }
-}
-
-/* =========================
-   GLASSMORPHISM LÉGER (SAFE)
-========================= */
-
-/* Effet vitre sur blocs principaux sans casser Quartz */
-pre, blockquote, .callout, .card {
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 12px;
-}
-
-/* =========================
-   TYPO CLEAN
-========================= */
+/* ========================================
+   TYPOGRAPHY
+======================================== */
 
 body {
   font-family: "Source Sans Pro", sans-serif;
   line-height: 1.65;
+  overflow-x: hidden;
 }
 
-/* liens propres */
 a {
   text-decoration: none;
+  transition: 0.2s ease;
 }
 
 a:hover {
   text-decoration: underline;
   opacity: 0.85;
+}
+
+/* ========================================
+   GLASSMORPHISM
+======================================== */
+
+pre,
+blockquote,
+.callout,
+.card {
+  background: rgba(255, 255, 255, 0.05);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+}
+
+/* ========================================
+   DESKTOP LAYOUT STABILIZATION
+======================================== */
+
+@media screen and (min-width: 1200px) {
+
+  /* STRUCTURE PRINCIPALE */
+  .page {
+    display: grid !important;
+
+    grid-template-columns:
+      270px
+      minmax(0, 1fr)
+      310px !important;
+
+    gap: 2rem;
+
+    width: 100%;
+    max-width: 1600px;
+
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  /* SIDEBARS */
+  .sidebar {
+    min-width: 0;
+  }
+
+  .left.sidebar,
+  .right.sidebar {
+    position: sticky;
+    top: 1rem;
+
+    height: calc(100vh - 2rem);
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    padding-right: 0.4rem;
+  }
+
+  /* CONTENU CENTRAL */
+  article {
+    min-width: 0 !important;
+
+    width: 100%;
+    max-width: 850px;
+
+    margin: 0 auto;
+
+    overflow-x: hidden;
+
+    padding: 0 0.5rem;
+  }
+
+  /* TITRES */
+  article h1,
+  article h2,
+  article h3,
+  .breadcrumbs,
+  .page-title {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  /* IMAGES */
+  article img {
+    max-width: 100%;
+    height: auto;
+
+    display: block;
+
+    border-radius: 14px;
+  }
+
+  /* CODE BLOCKS */
+  pre {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+
+  /* TABLES */
+  table {
+    display: block;
+    overflow-x: auto;
+    max-width: 100%;
+  }
+
+  /* GRAPH */
+  .graph {
+    background: rgba(255, 255, 255, 0.04);
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border-radius: 18px;
+
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+
+    overflow: hidden;
+
+    max-width: 100%;
+  }
+
+  .graph svg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* TABLE OF CONTENTS */
+  .toc {
+    background: rgba(255, 255, 255, 0.04);
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border-radius: 18px;
+
+    padding: 1rem;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    max-width: 100%;
+  }
+
+  .toc ul {
+    padding-left: 1rem;
+  }
+
+  .toc li {
+    white-space: normal;
+    margin-bottom: 0.4rem;
+  }
+
+  /* EXPLORER */
+  .explorer {
+    padding-bottom: 3rem;
+  }
+
+  /* SCROLLBAR */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+  }
+}
+
+/* ========================================
+   GLOBAL SAFETY
+======================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+/* FIX OVERFLOW QUARTZ */
+
+.center,
+article,
+.popover,
+.page {
+  min-width: 0 !important;
 }
