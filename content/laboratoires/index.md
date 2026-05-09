@@ -2,9 +2,11 @@
 title: "🧪 Laboratoire Central"
 lastmod: 2026-05-08
 ---
-<div class="glass">
+
 
 #  Laboratoire Technique
+
+<div class="glass">
 
 Bienvenue dans mon environnement de laboratoire informatique.
 
@@ -16,16 +18,24 @@ Ce système est utilisé pour l’apprentissage pratique des :
 - 📡 analyse de trafic réseau
 
 ---
+</div>
+
+<div class="glass">
 
 #  Objectif du laboratoire
+
 
 Construire une maîtrise réelle des technologies informatiques à travers :
 
 > théorie → pratique → analyse → documentation
 
 ---
+</div>
+
 
 #  Accès aux modules
+
+<div class="glass">
 
 ## 🖥️ Linux (Systèmes)
 📁 `./linux/`
@@ -37,6 +47,9 @@ Construire une maîtrise réelle des technologies informatiques à travers :
  objectif : autonomie système
 
 ---
+</div>
+
+<div class="glass">
 
 ## 🌐 Nmap (Cybersécurité)
 📁 `./nmap/`
@@ -48,6 +61,8 @@ Construire une maîtrise réelle des technologies informatiques à travers :
  objectif : comprendre la surface d’attaque
 
 ---
+</div>
+<div class="glass">
 
 ##  Wireshark (Réseaux)
 📁 `./wireshark/`
@@ -59,6 +74,9 @@ Construire une maîtrise réelle des technologies informatiques à travers :
  objectif : comprendre le flux réseau réel
 
 ---
+</div>
+
+<div class="glass">
 
 ## 📂 Data (Ressources internes)
 📁 `./data/`
@@ -71,6 +89,9 @@ Construire une maîtrise réelle des technologies informatiques à travers :
  objectif : stockage technique brut
 
 ---
+</div>
+
+<div class="glass">
 
 # 📊 État du laboratoire
 
@@ -82,6 +103,9 @@ Construire une maîtrise réelle des technologies informatiques à travers :
 | Analyse trafic | 🟠 À développer | ██░░░░░░░░ |
 
 ---
+</div>
+
+<div class="glass">
 
 #  Méthode de travail
 
@@ -93,11 +117,14 @@ Chaque laboratoire suit toujours le même cycle :
 4. 🔁 Reproduire sans aide
 
 ---
-
+</div>
+<div class="glass">
 > [!important]
 > Une compétence n’est validée que si elle peut être reproduite sans assistance.
 
 ---
+</div>
+<div class="glass">
 
 #  Vision du laboratoire
 
