@@ -2,6 +2,7 @@
 title: "🧪 Laboratoire Central"
 lastmod: 2026-05-08
 ---
+<div class="glass">
 
 #  Laboratoire Technique
 
@@ -107,5 +108,6 @@ Ce système est conçu comme un **mini environnement de type ingénierie réseau
 - documentation structurée
 
 ---
+</div>
 
 *Dernière mise à jour : 08 mai 2026*
