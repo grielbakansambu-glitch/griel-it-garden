@@ -1,17 +1,27 @@
 ---
 title: "👤 À propos"
 lastmod: 2026-05-08
-<div class="glass">
 
 ---
 
-![Photo de Gabriel](../assets/photo.png)
+<img src="../assets/photo.png"
+     width="145px"
+     style="
+     border-radius:100%;
+     border:4px solid rgba(0, 207, 224, 0.7);
+     padding:5px;
+     background:rgba(255,255,255,0.04);
+     backdrop-filter:blur(10px);
+     -webkit-backdrop-filter:blur(10px);
+     box-shadow:0 0 25px rgba(0, 207, 224, 0.35);
+     " />
 
 # Gabriel Bakansambu Basikila
 
 > Étudiant en Didactique de l’Informatique et de la Technologie  
 > Passionné par les systèmes, les réseaux et la documentation technique.
 
+<div class="glass">makambo
 ---
 
 ##  Parcours académique
@@ -80,8 +90,7 @@ Cette discipline influence également ma manière d’apprendre et de travailler
 - Projet personnel : G-RIEL IT GARDEN
 
 ---
-
-</div>
+</div>makambo
 
 > J’apprends en construisant.  
 > Ce site évolue avec mon parcours.
