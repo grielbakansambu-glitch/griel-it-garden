@@ -1,7 +1,6 @@
 ---
 title: "👤 À propos"
 lastmod: 2026-05-08
-
 ---
 
 <img src="../assets/photo.png"
@@ -21,8 +20,7 @@ lastmod: 2026-05-08
 > Étudiant en Didactique de l’Informatique et de la Technologie  
 > Passionné par les systèmes, les réseaux et la documentation technique.
 
-<div class="glass">makambo
----
+<div class="glass">
 
 ##  Parcours académique
 
@@ -32,7 +30,7 @@ lastmod: 2026-05-08
 - Apprentissage des réseaux, systèmes Linux et outils informatiques
 - Développement progressif en cybersécurité et administration système
 
-###  Institut Saint Joseph / Songololo
+### 📘 Institut Saint Joseph / Songololo
 
 - Diplôme d’État en Pédagogie Générale
 
@@ -57,7 +55,7 @@ Mon objectif est de construire progressivement des compétences techniques réel
 
 ---
 
-##  Domaines explorés
+## 🌐 Domaines explorés
 
 - Linux & systèmes
 - Réseaux informatiques
@@ -89,8 +87,7 @@ Cette discipline influence également ma manière d’apprendre et de travailler
 - Résidence actuelle : Kinshasa — RDC
 - Projet personnel : G-RIEL IT GARDEN
 
----
-</div>makambo
+</div>
 
 > J’apprends en construisant.  
 > Ce site évolue avec mon parcours.

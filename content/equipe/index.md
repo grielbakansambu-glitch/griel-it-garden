@@ -5,6 +5,8 @@ lastmod: 2026-05-08
 
 # Shadow Ops
 
+<div class="glass">
+
 **Shadow Ops** est un petit groupe d’étudiants de l’ISP Mbanza-Ngungu réunis autour de l’informatique, des réseaux et de la cybersécurité.
 
 L’objectif est simple : progresser ensemble à travers la pratique, l’expérimentation et le partage de connaissances.
@@ -53,5 +55,6 @@ Shadow Ops se concentre sur trois axes principaux :
 Le groupe repose sur la discipline, la collaboration et la progression continue.
 
 ---
+</div>
 
 *Dernière mise à jour : 08 mai 2026*
