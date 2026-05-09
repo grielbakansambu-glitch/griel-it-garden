@@ -2,12 +2,16 @@
 title: "📓 Journal de bord"
 lastmod: 2026-05-08
 ---
+<div class="glass">
 
 # 📊 Suivi de progression
 
 Ce journal suit l’évolution de mon apprentissage dans les domaines des systèmes, réseaux et cybersécurité, ainsi que l’évolution du **G-RIEL IT GARDEN**.
 
+</div>
 ---
+
+<div class="glass">
 
 ## 📚 Apprentissages en cours
 
@@ -18,7 +22,10 @@ Ce journal suit l’évolution de mon apprentissage dans les domaines des systè
 | Cybersécurité | Reconnaissance et outils de scan (Nmap) | 🟡 Débutant |
 | Didactique | Méthodes de transmission des connaissances IT | 🟢 En cours (ISP) |
 
+</div>
 ---
+
+<div class="glass">
 
 ##  État du projet (G-RIEL IT GARDEN)
 
@@ -30,20 +37,25 @@ Ce journal suit l’évolution de mon apprentissage dans les domaines des systè
 | Équipe (Shadow Ops) | ✅ Documentée | Structure en place |
 | Laboratoires | 🛠️ En construction | Premiers TP à venir |
 
+</div>
 ---
+
+<div class="glass">
 
 ## 📅 Notes de progression
 
 - **08/05/2026 :** Structuration de l’équipe Shadow Ops
 - **07/05/2026 :** Correction du layout (problème de superposition)
 - **06/05/2026 :** Déploiement initial du site sur GitHub Pages
-
+</div>
 ---
+<div class="glass">
 
 > [!note] Objectif actuel
 > Commencer la documentation du premier laboratoire pratique (Linux ou Réseaux).
-
+</div>
 ---
+<div class="glass">
 
 #  Philosophie du journal
 
@@ -56,5 +68,6 @@ C’est une trace vivante de mon évolution :
 - progression réelle
 
 ---
+</div>
 
 *Dernière mise à jour : 08 mai 2026*
