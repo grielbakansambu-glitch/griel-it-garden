@@ -1,16 +1,18 @@
 ---
 title: "📓 Journal de bord"
 lastmod: 2026-05-08
-
+---
 <div class="glass">
+
+<p></p>
 
 # 📊 Suivi de progression
 
 Ce journal suit l’évolution de mon apprentissage dans les domaines des systèmes, réseaux et cybersécurité, ainsi que l’évolution du **G-RIEL IT GARDEN**.
 
 ---
-</div>
 
+</div>
 
 <div class="glass">
 
