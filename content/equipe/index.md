@@ -20,10 +20,11 @@ L’objectif est simple : progresser ensemble à travers la pratique, l’expér
 | **Gabriel Bakansambu** | Réseaux & coordination technique |
 | **Vismo Tuwizana** | Administration,Design & interface |
 | **Exenon Kuzieme** | Cybersécurité (apprentissage & tests) |
-| **Blaise Blula** | Systèmes & administration |
+| **Blaise Bula** | Systèmes & administration |
 | **Josué Nsimba** | Didactique & simplification |
 | **Axel Ndediba** | Analyse & documentation |
-| **Elohim Zinga** | Systèmes & organisation |
+| **Elohim Nzinga** | Systèmes & organisation |
+| **Fabien Nsunga** | Systèmes & organisation |
 
 ---
 

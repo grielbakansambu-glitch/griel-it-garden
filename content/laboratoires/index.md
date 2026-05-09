@@ -101,6 +101,8 @@ Construire une maîtrise réelle des technologies informatiques à travers :
 
 <div class="glass">
 
+<p></p>
+
 # 📊 État du laboratoire
 
 | Domaine | Statut | Progression |
